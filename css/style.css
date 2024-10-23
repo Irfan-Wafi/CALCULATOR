@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: antiquewhite;
+
+
+}
+
+.wrapper {
+    
+    margin-top: 50px !important;
+    background: rgb(36, 34, 73);
+    background: radial-gradient(circle, rgba(36, 34, 73, 1) 0%, rgba(56, 67, 69, 1) 100%);
+    border-radius: 40px;
+    width: 500px;
+    font-family: "Roboto", sans-serif;
+    padding: 30px;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+.button-row {
+    background-color: #22282C;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(2px 2px 4px #000);
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.button-row:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: inherit !important;
+}
+
+.section-screen {
+    position: relative;
+
+    border-radius: 40px;
+    height: 140px;
+    background-color: #000;
+    font-family: 'Calculator', sans-serif;
+
+
+}
+
+.screen-data {
+    position: absolute;
+    top: 20%;
+    left: 83%;
+
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+
+.button-row:last-child {
+    line-height: 10%;
+    color: #7AD054;
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+.button-row-equal {
+    line-height: 130%;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(2px 2px 4px #000);
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #FC7B15;
+    color: white;
+}
+
+
+.button-row:active {
+    background-color: #a4a9d1 !important;
+}
+
+.button-row-equal:active {
+    background-color: #17b821;
+}
+
+.op {
+    color: #7AD054;
+    font-weight: 600px;
+    font-size: 20px;
+}
+
+.op1 {
+    color: #7AD054;
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+.star {
+    line-height: 160% !important;
+}
+
+.min {
+    font-size: 40px !important;
+    font-weight: 500;
+
+}
